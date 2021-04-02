@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма аутентификации</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="section__form">
+        <div class="container__form" id = "id__container_form">
+            <form action="" method="post">
+                <h2>Форма входа</h2>
+                <label class="label" for="login-field">Ваш логин</label>
+                <input type="text" name="login" id="login-field" v-model="login">
+                <label class="label" for="password-field">Ваш пароль</label>
+                <input type="password" name="password" id="password-field" v-model="password">
+                <button type="submit">Sing UP</button>
+            </form>
+        </div>
+    </section>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+    <script>
+        var id__container_form = new Vue ({
+            el: '#id__container_form',
+            data: function() {
+                return {
+                    login: 'name',
+                    password: '*******',
+                }
+            }
+        })
+    </script>
+</body>
+</html>

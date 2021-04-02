@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* { 
+    box-sizing:border-box; 
+}
+
+input {
+    font-size:14px;
+    padding:10px;
+    margin-bottom: 1em;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.label {
+    color: #94aab0;
+    margin-bottom: 10px;
+  }
+
+button {
+    padding: 0.5rem;
+    width: 100px;
+    align-items: center;
+    background: #273439;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    justify-content: center;
+  }
+submit:hover {
+    background: #0e232e;
+}
+
+.container__form {
+    padding: 5em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
